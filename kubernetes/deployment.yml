@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: notification
-          image: 052937454741.dkr.ecr.ap-northeast-2.amazonaws.com/team-e-notification:latest
+          image: 879772956301.dkr.ecr.ap-northeast-2.amazonaws.com/team-e-notification:latest
           ports:
             - containerPort: 8080
           readinessProbe:
